@@ -6,8 +6,8 @@ int scl=10;
 Cell[][] grid = new Cell[41][41];
 
 Cell current;
-//Stack<Cell> stack = new Stack<Cell>();  
-Stack<Cell> stack;
+Stack<Cell> stack = new Stack<Cell>();  
+
 void setup() {
   size(401, 401);
   
